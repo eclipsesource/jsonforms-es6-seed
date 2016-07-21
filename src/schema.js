@@ -2,19 +2,15 @@ export default {
     "type": "object",
     "properties": {
         "name": {
-            "type": "string",
-            "minLength": 3
+            "type": "string"
         },
-        "age": {
-            "type": "integer"
+        "description": {
+            "type": "string"
         },
-        "gender": {
-            "type": "string",
-            "enum": ["Male", "Female"]
-        },
-        "height": {
-            "type": "number"
+        "done": {
+            "type": "boolean"
         }
-    }
+    },
+    "required": ["name"]
 }
 

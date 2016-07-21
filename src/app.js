@@ -8,9 +8,8 @@ app.controller('MyController', ['$scope', function($scope) {
     $scope.schema = Schema;
     $scope.uiSchema = UISchema;
     $scope.data = {
-        "name": 'John Doe',
-        "age": 36,
-        "height": 1.85,
-        "gender": 'Male'
+        "name": "Send email to Adriana",
+        "description": "Confirm if you have passed the subject",
+        "done": true
     };
 }]);

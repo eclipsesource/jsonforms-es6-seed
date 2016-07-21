@@ -1,17 +1,23 @@
 export default {
-    "type": "HorizontalLayout",
+    "type": "VerticalLayout",
     "elements": [
         {
             "type": "Control",
+            "label": "Name",
             "scope": { "$ref": "#/properties/name" }
         },
         {
             "type": "Control",
-            "scope": { "$ref": "#/properties/age" }
+            "label": "Description",
+            "scope": { "$ref": "#/properties/description" },
+            "options": {
+                "multi": true
+            }
         },
         {
             "type": "Control",
-            "scope": { "$ref": "#/properties/gender" }
+            "label": "Done?",
+            "scope": { "$ref": "#/properties/done" }
         },
     ]
 }
