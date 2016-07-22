@@ -1,2 +1,2 @@
 import angular from 'angular';
-angular.module('jsonforms-seed', ['jsonforms']);
+angular.module('jsonforms-seed', ['jsonforms', 'ui.bootstrap']);
