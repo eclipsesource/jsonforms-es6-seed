@@ -4,6 +4,10 @@ import Schema from './schema';
 import UISchema from './ui-schema';
 import 'jsonforms';
 
+import "bootstrap/dist/css/bootstrap.css";
+import "angular-ui-bootstrap";
+import 'angular-ui-bootstrap/src/rating';
+
 
 angular.module('jsonforms-seed').controller('MyController', ['$scope', function($scope) {
     $scope.schema = Schema;
