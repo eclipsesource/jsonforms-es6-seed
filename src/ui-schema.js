@@ -4,12 +4,26 @@ export default {
         {
             "type": "Control",
             "label": "Name",
-            "scope": { "$ref": "#/properties/name" }
+            "scope": {
+                "$ref": "#/properties/name"
+            }
         },
         {
             "type": "Control",
             "label": "Description",
-            "scope": { "$ref": "#/properties/description" },
+            "scope": {
+                "$ref": "#/properties/description"
+            },
+            "options": {
+                "multi": true
+            }
+        },
+        {
+            "type": "Control",
+            "label": "Rating",
+            "scope": {
+                "$ref": "#/properties/rating"
+            },
             "options": {
                 "multi": true
             }
@@ -17,7 +31,9 @@ export default {
         {
             "type": "Control",
             "label": "Done?",
-            "scope": { "$ref": "#/properties/done" }
-        },
+            "scope": {
+                "$ref": "#/properties/done"
+            }
+        }
     ]
 }
